@@ -102,7 +102,7 @@ mysqli_close($link);
 
 <html>
 <head>
-<title>Add Record Form</title>
+<title>Add Record Form bb </title>
 </head>
 <body>
 <form action="" method="post">
