@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
     }
     else
     {
-        echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+        echo "ERROR: Could not able to execute it  $sql. " . mysqli_error($link);
     }
 }
 $query = "SELECT id FROM persons ORDER BY id DESC LIMIT 1";
